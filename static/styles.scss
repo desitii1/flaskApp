@@ -1,0 +1,36 @@
+// variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$success-color: #2ecc71;
+$success-hover-color: darken($success-color, 10%);
+$title-color: #333;
+$bg_color: wheat;
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    background-color:$bg_color;
+
+}
+ 
+.content{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    h1{
+        color: $title-color;
+    }
+    h4{
+        color: #2ecc71;
+    }
+    table{
+        width:100%;
+        margin-top: 20px;
+        border-collapse:collapse;
+    }
+}
